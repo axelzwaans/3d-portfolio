@@ -1,28 +1,25 @@
 import {
+  career,
+  yacht,
+  mfk,
+  sail,
+  paws,
+  python,
+  postgres,
+  reactbootstrap,
+  django,
+  flask,
   mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  vanlifeblog,
+  houseparty,
+  homerunner,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +43,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -73,98 +66,86 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: python,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "React Bootstrap",
+    icon: reactbootstrap,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Django",
+    icon: django,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: postgres,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Flask",
+    icon: flask,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Career development",
+    company_name: "N/A",
+    icon: career,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2022 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This period I have been dedicating myself to enhancing my software development skills and working towards my future in the tech industry.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Co-Founder",
+    company_name: "Marcassie Farm Kitchen",
+    icon: mfk,
+    iconBg: "#fff",
+    date: "January 2021 - September 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing and maintaining an online store using Shopify and third-party applications.",
+      "Customer service.",
+      "Accounting.",
+      "Ingredients sourcing.",
+      "Cooking/packaging/distribution.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Chase Boat Captain",
+    company_name: "Motoryacht 'Alicia'",
+    icon: yacht,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2018 - October 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Safe navigation & operation of the vessel.",
+      "Accounting.",
+      "Shipyard & project management.",
+      "Engine maintenance & repairs.",
+      "Personnel management.",
+    ],
+  },
+  {
+    title: "First Mate",
+    company_name: "Sailing Yacht 'CHE'",
+    icon: sail,
+    iconBg: "#383E56",
+    date: "July 2014 - October 2017",
+    points: [
+      "Keeping solo navigational watch.",
+      "Relieving the captain's duties when absent.",
+      "Operating and maintaining the vessel's systems and hardware.",
+      "Sailing & rig work.",
+      "Customer service.",
     ],
   },
 ];
@@ -198,67 +179,88 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Paws",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A photo-sharing social networking service on which users can interact with each other by following other users and commenting on or liking their posts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "react-bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: paws,
+    source_code_link: "https://github.com/axelzwaans/paws",
   },
   {
-    name: "Job IT",
+    name: "Vanlife Blog",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web app where you can blog about your vanlife adventures. Users can create an account, write blog posts, and comment on other users' posts.",
+    tags: [
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: vanlifeblog,
+    source_code_link: "https://github.com/axelzwaans/vanlife-blog",
+  },
+  {
+    name: "House Party",
+    description:
+      "A collaborative music playing app which integrates with Spotify. Users can create a room, join a room, and vote to skip a song.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "postgres",
         color: "pink-text-gradient",
       },
+      {
+        name: "material-ui",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: houseparty,
+    source_code_link: "https://github.com/axelzwaans/house-party",
   },
   {
-    name: "Trip Guide",
+    name: "Home Runner",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A mini text-based 'choose your own' adventure game. The goal of the game is to reach the destination by completing challenges in the way.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: homerunner,
+    source_code_link: "https://github.com/axelzwaans/home-runner",
   },
 ];
 

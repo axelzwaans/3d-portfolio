@@ -1,8 +1,0 @@
-Model Information:
-* title:	Gaming Environment (Minimal)
-* source:	https://sketchfab.com/3d-models/gaming-environment-minimal-ccdf9d3e5f1a470ea4210ceb926bd33d
-* author:	neshallads (https://sketchfab.com/neshallads)
-
-Model License:
-* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
-* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
