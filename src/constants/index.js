@@ -20,6 +20,7 @@ import {
   vanlifeblog,
   houseparty,
   homerunner,
+  creator
 } from "../assets";
 
 export const navLinks = [
@@ -39,16 +40,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Advanced Front-End Development with React",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Full stack development with backend frameworks",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Attentive to detail in UI/UX design",
     icon: backend,
+  },
+  {
+    title: "Collaborative and adaptable in a team environment",
+    icon: creator,
   },
 ];
 
@@ -98,12 +103,14 @@ const technologies = [
 const experiences = [
   {
     title: "Career development",
-    company_name: "N/A",
+    company_name: "Scotland",
     icon: career,
     iconBg: "#E6DEDD",
     date: "September 2022 - Current",
     points: [
-      "This period I have been dedicating myself to enhancing my software development skills and working towards my future in the tech industry.",
+      "Full-Stack Software Development Course with Code Institute.",
+      "Software Engineering Course with ProgrammingExpert.io",
+      "Enhancing my software development skills through learning and creating projects.",
     ],
   },
   {
